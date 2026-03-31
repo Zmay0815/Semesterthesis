@@ -1,0 +1,146 @@
+{
+  "fs": 500,
+  "curated_template_stat": "mean",
+  "keep_fraction": 0.8,
+  "state_sample_stride": 10,
+  "qt_curated_records": {
+    "R": [
+      "sel117",
+      "sel123",
+      "sel116",
+      "sel114",
+      "sel100",
+      "sel104"
+    ],
+    "P": [
+      "sel117",
+      "sel123",
+      "sel116",
+      "sel114",
+      "sel100",
+      "sel104"
+    ],
+    "T": [
+      "sel117",
+      "sel123",
+      "sel116",
+      "sel114",
+      "sel100",
+      "sel104"
+    ]
+  },
+  "template_build": {
+    "R": {
+      "n_whitening_samples": 270000,
+      "n_states_before_filter": 9968,
+      "n_states_after_filter": 7974,
+      "per_record_counts": {
+        "sel117": 1530,
+        "sel123": 1501,
+        "sel116": 2264,
+        "sel114": 1625,
+        "sel100": 2257,
+        "sel104": 791
+      }
+    },
+    "P": {
+      "n_whitening_samples": 270000,
+      "n_states_before_filter": 9968,
+      "n_states_after_filter": 7974,
+      "per_record_counts": {
+        "sel117": 1530,
+        "sel123": 1501,
+        "sel116": 2264,
+        "sel114": 1625,
+        "sel100": 2257,
+        "sel104": 791
+      }
+    },
+    "T": {
+      "n_whitening_samples": 270000,
+      "n_states_before_filter": 9968,
+      "n_states_after_filter": 7974,
+      "per_record_counts": {
+        "sel117": 1530,
+        "sel123": 1501,
+        "sel116": 2264,
+        "sel114": 1625,
+        "sel100": 2257,
+        "sel104": 791
+      }
+    }
+  },
+  "feature_shape": [
+    66134,
+    10
+  ],
+  "n_normal": 60803,
+  "n_ventricular": 5331,
+  "train_records": [
+    "100",
+    "101",
+    "103",
+    "105",
+    "106",
+    "108",
+    "112",
+    "113",
+    "116",
+    "117",
+    "119",
+    "121",
+    "122",
+    "200",
+    "202",
+    "203",
+    "205",
+    "208",
+    "210",
+    "214",
+    "219",
+    "220",
+    "222",
+    "223"
+  ],
+  "test_records": [
+    "114",
+    "115",
+    "123",
+    "201",
+    "213",
+    "221"
+  ],
+  "best_params": {
+    "svc__C": 1,
+    "svc__gamma": "scale"
+  },
+  "best_cv_auc": 0.9586013914278769,
+  "test_accuracy": 0.9229223597492364,
+  "test_precision": 0.4642599277978339,
+  "test_recall": 0.7476744186046511,
+  "test_f1": 0.5728285077951002,
+  "test_auc": 0.9422098444659517,
+  "confusion_matrix": [
+    [
+      10840,
+      742
+    ],
+    [
+      217,
+      643
+    ]
+  ],
+  "feature_names": [
+    "d_R",
+    "d_P",
+    "d_T",
+    "A_R",
+    "A_P",
+    "A_T",
+    "RR_prev",
+    "RR_next",
+    "PR",
+    "QT"
+  ],
+  "runtime_sec": 1344.9929394721985
+}

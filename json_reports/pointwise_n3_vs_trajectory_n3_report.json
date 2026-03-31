@@ -1,0 +1,40 @@
+{
+  "pointwise_n3": {
+    "n": 15528,
+    "bias_ms": 66.41666666666667,
+    "std_ms": 111.84260560749807,
+    "mae_ms": 74.55937660999484,
+    "rmse_ms": 130.07667754130821,
+    "median_abs_ms": 12.0
+  },
+  "trajectory_n3": {
+    "n": 15528,
+    "bias_ms": 72.76107676455436,
+    "std_ms": 109.85142230136556,
+    "mae_ms": 75.72243688820195,
+    "rmse_ms": 131.76308008531953,
+    "median_abs_ms": 12.0
+  },
+  "paired_wilcoxon_abs": {
+    "p_value": 0.04080663839046871,
+    "statistic": 50039786.0,
+    "median_abs_improvement_ms": 0.0
+  },
+  "n_beats": 15528,
+  "train_records": [
+    "sel100",
+    "sel102",
+    "sel103",
+    "sel104"
+  ],
+  "eval_records": [
+    "sel114",
+    "sel116",
+    "sel117",
+    "sel123",
+    "sel221",
+    "sel231",
+    "sel232",
+    "sel233"
+  ]
+}

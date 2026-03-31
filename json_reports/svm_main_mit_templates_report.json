@@ -1,0 +1,88 @@
+{
+  "template_source": "MIT-derived templates",
+  "feature_shape_train": [
+    51459,
+    10
+  ],
+  "feature_shape_test": [
+    12432,
+    10
+  ],
+  "feature_shape_total": [
+    63891,
+    10
+  ],
+  "n_train_normal": 46991,
+  "n_train_ventricular": 4468,
+  "n_test_normal": 11572,
+  "n_test_ventricular": 860,
+  "n_total_normal": 58563,
+  "n_total_ventricular": 5328,
+  "train_records": [
+    "100",
+    "101",
+    "103",
+    "105",
+    "106",
+    "108",
+    "112",
+    "113",
+    "116",
+    "117",
+    "119",
+    "121",
+    "122",
+    "200",
+    "202",
+    "203",
+    "205",
+    "208",
+    "210",
+    "214",
+    "219",
+    "220",
+    "222",
+    "223"
+  ],
+  "test_records": [
+    "114",
+    "115",
+    "123",
+    "201",
+    "213",
+    "221"
+  ],
+  "best_params": {
+    "svc__C": 100,
+    "svc__gamma": 0.1
+  },
+  "best_cv_auc": 0.9020926176824873,
+  "test_accuracy": 0.9824646074646075,
+  "test_precision": 0.9349593495934959,
+  "test_recall": 0.8023255813953488,
+  "test_f1": 0.8635794743429287,
+  "test_auc": 0.9824901627022725,
+  "confusion_matrix": [
+    [
+      11524,
+      48
+    ],
+    [
+      170,
+      690
+    ]
+  ],
+  "feature_names": [
+    "d_R",
+    "d_P",
+    "d_T",
+    "A_R",
+    "A_P",
+    "A_T",
+    "RR_prev",
+    "RR_next",
+    "PR",
+    "QT"
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n           N       0.99      1.00      0.99     11572\n           V       0.93      0.80      0.86       860\n\n    accuracy                           0.98     12432\n   macro avg       0.96      0.90      0.93     12432\nweighted avg       0.98      0.98      0.98     12432\n"
+}

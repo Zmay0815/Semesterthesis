@@ -1,0 +1,114 @@
+{
+  "fs": 500,
+  "main_template_stat": "mean",
+  "keep_fraction": 0.8,
+  "state_sample_stride": 10,
+  "records": {
+    "R": [
+      "sel117",
+      "sel123",
+      "sel116",
+      "sel114",
+      "sel100",
+      "sel104"
+    ],
+    "P": [
+      "sel117",
+      "sel123",
+      "sel116",
+      "sel114",
+      "sel100",
+      "sel104"
+    ],
+    "T": [
+      "sel117",
+      "sel123",
+      "sel116",
+      "sel114",
+      "sel100",
+      "sel104"
+    ]
+  },
+  "record_leads": {
+    "sel100": {
+      "lead": 0,
+      "ann_ext": "pu"
+    },
+    "sel104": {
+      "lead": 0,
+      "ann_ext": "pu"
+    },
+    "sel114": {
+      "lead": 1,
+      "ann_ext": "pu"
+    },
+    "sel116": {
+      "lead": 0,
+      "ann_ext": "pu"
+    },
+    "sel117": {
+      "lead": 1,
+      "ann_ext": "pu"
+    },
+    "sel123": {
+      "lead": 0,
+      "ann_ext": "pu"
+    }
+  },
+  "waves": {
+    "R": {
+      "polydegree": 2,
+      "l_side": 15,
+      "g": 40,
+      "n_whitening_samples": 270000,
+      "n_event_states_before_filter": 10049,
+      "n_event_states_after_filter": 8039,
+      "per_record_counts": {
+        "sel100": 2257,
+        "sel104": 857,
+        "sel114": 1637,
+        "sel116": 2266,
+        "sel117": 1530,
+        "sel123": 1502
+      },
+      "template_dimension": 3,
+      "main_template_stat": "mean"
+    },
+    "P": {
+      "polydegree": 2,
+      "l_side": 20,
+      "g": 120,
+      "n_whitening_samples": 270000,
+      "n_event_states_before_filter": 10049,
+      "n_event_states_after_filter": 8039,
+      "per_record_counts": {
+        "sel100": 2257,
+        "sel104": 857,
+        "sel114": 1637,
+        "sel116": 2266,
+        "sel117": 1530,
+        "sel123": 1502
+      },
+      "template_dimension": 3,
+      "main_template_stat": "mean"
+    },
+    "T": {
+      "polydegree": 2,
+      "l_side": 40,
+      "g": 10,
+      "n_whitening_samples": 270000,
+      "n_event_states_before_filter": 10049,
+      "n_event_states_after_filter": 8039,
+      "per_record_counts": {
+        "sel100": 2257,
+        "sel104": 857,
+        "sel114": 1637,
+        "sel116": 2266,
+        "sel117": 1530,
+        "sel123": 1502
+      },
+      "template_dimension": 3,
+      "main_template_stat": "mean"
+    }
+  }
+}
