@@ -15,15 +15,15 @@ Please extract these archives before running the code:
 - `mit-bih-arrhythmia-database-1.0.7z`
 - `lobachevsky-university-electrocardiography-database-1.0.1.zip`
 
-The scripts expect the extracted dataset folders to exist inside the thesis folder structure, or to be provided through the corresponding environment variables.
+The archive files themselves are not sufficient. They must be extracted first.
 
-In particular:
+If environment variables are used, the scripts expect the following:
 
 - `MIT_BIH_DIR` for the MIT-BIH Arrhythmia Database
 - `LUDB_DIR` for the LUDB dataset
 - `QT_DATABASE_DIR` for the QT Database
 
-The archive files themselves are not sufficient. They must be extracted first.
+Otherwise, the scripts search the thesis folder structure for the extracted dataset folders.
 
 ---
 
@@ -250,8 +250,7 @@ This mapping is based on the current thesis version.
 
 - **Figure 13**  
   MIT-BIH ECG segment with detected R peaks  
-  Script: `r_and_qrs/evaluate_mit_r_template_generalization.py`  
-  or the corresponding dedicated R-detection plotting step used from that workflow
+  Script: `r_and_qrs/evaluate_mit_r_template_generalization.py`
 
 - **Figure 14**  
   Anchor-based P and T search windows  
