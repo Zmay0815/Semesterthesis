@@ -234,11 +234,11 @@ This mapping is based on the current thesis version.
 
 - **Figure 9**  
   ALSSM segment geometry and weighting  
-  Script: retained figure generator for ALSSM segment support and weighting
+  Script: `plot_alssm_segment_weight.py`
 
 - **Figure 10**  
   Whitening transformation in ALSSM state space  
-  Script: retained figure generator for ALSSM whitening visualization
+  Script: `plot_alssm_whitening.py`
 
 - **Figure 11**  
   Multiscale QRS concept  
